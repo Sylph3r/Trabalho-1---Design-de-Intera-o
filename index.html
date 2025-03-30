@@ -39,11 +39,17 @@
         <label for="padding" class="form-label mt-2">Espaçamento Interno (Padding):</label>
         <input type="number" id="padding" class="form-control" value="10">
         
-        <label for="imageInput" class="form-label mt-2">Imagem:</label>
-        <input type="file" id="imageInput" class="form-control">
+        <label for="imageInputBefore" class="form-label mt-2">Imagem Antes do Texto:</label>
+        <input type="file" id="imageInputBefore" class="form-control">
 
-        <label for="imageSize" class="form-label mt-2">Tamanho da Imagem (px):</label>
-        <input type="number" id="imageSize" class="form-control" value="100">
+        <label for="imageSizeBefore" class="form-label mt-2">Tamanho da Imagem Antes (px):</label>
+        <input type="number" id="imageSizeBefore" class="form-control" value="100">
+
+        <label for="imageInputAfter" class="form-label mt-2">Imagem Depois do Texto:</label>
+        <input type="file" id="imageInputAfter" class="form-control">
+
+        <label for="imageSizeAfter" class="form-label mt-2">Tamanho da Imagem Depois (px):</label>
+        <input type="number" id="imageSizeAfter" class="form-control" value="100">
         
         <button class="btn btn-primary mt-3" onclick="updateHeader()">Aplicar</button>
     </div>
