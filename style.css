@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.editor-container, .preview-container {
+  width: 800px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f8f9fa;
+}
+
+.header-preview {
+  width: 100%;
+  min-height: 150px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
