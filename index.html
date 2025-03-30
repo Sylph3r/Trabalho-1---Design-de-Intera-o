@@ -29,7 +29,10 @@
             <option value="dotted">Pontilhada</option>
             <option value="none">Sem borda</option>
         </select>
-        
+
+        <label for="borderWidth" class="form-label mt-2">Espessura da Borda (px):</label>
+        <input type="number" id="borderWidth" class="form-control" value="2">
+
         <label for="borderColor" class="form-label mt-2">Cor da Borda:</label>
         <input type="color" id="borderColor" class="form-control">
         
@@ -38,6 +41,9 @@
         
         <label for="imageInput" class="form-label mt-2">Imagem:</label>
         <input type="file" id="imageInput" class="form-control">
+
+        <label for="imageSize" class="form-label mt-2">Tamanho da Imagem (px):</label>
+        <input type="number" id="imageSize" class="form-control" value="100">
         
         <button class="btn btn-primary mt-3" onclick="updateHeader()">Aplicar</button>
     </div>
